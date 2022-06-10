@@ -2,6 +2,7 @@
 
 ## Instructions
 
+- Install packages: `python3 -m pip install -r requirements.txt`
 - Start flask app: `python3 -m flask run --host=0.0.0.0`
 - Start services: `docker-compose up -d`
 - Stop services: `docker-compose down`
