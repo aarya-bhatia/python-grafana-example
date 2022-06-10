@@ -7,3 +7,13 @@
 - Start services: `docker-compose up -d`
 - Stop services: `docker-compose down`
 - Visit <http://localhost:3000> to view Grafana dashboard (Login with user=admin, password=admin)
+
+## Tasks
+
+API endpoints: /create, /fetch, /update
+
+- Dashboard Config
+- Save dashboard and prometheus past data
+- AWS deploy - config
+- Status code of each API call
+- Average Time duration for each API call

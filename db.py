@@ -52,18 +52,18 @@ def read_query(connection, query):
     return result
 
 
-create_products_table = """
-CREATE TABLE IF NOT EXISTS products (
-    id INT PRIMARY KEY AUTO_INCREMENT,
-    name VARCHAR(40) NOT NULL,
-    quantity INT NOT NULL DEFAULT 0
-);
-"""
+# create_products_table = """
+# CREATE TABLE IF NOT EXISTS products (
+#     id INT PRIMARY KEY AUTO_INCREMENT,
+#     name VARCHAR(40) NOT NULL,
+#     quantity INT NOT NULL DEFAULT 0
+# );
+# """
 
-add_products_query = """
-INSERT INTO products (name, quantity) VALUES
-('A', 10),
-('B', 10),
-('C', 10),
-('D', 10);
-"""
+# add_products_query = """
+# INSERT INTO products (name, quantity) VALUES
+# ('A', 10),
+# ('B', 10),
+# ('C', 10),
+# ('D', 10);
+# """
